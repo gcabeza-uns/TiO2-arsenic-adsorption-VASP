@@ -1,0 +1,38 @@
+SYSTEM =  As2O3 anatasa101
+
+ISMEAR =-5 
+SIGMA = 0.2
+ENCUT = 400
+NCORE = 4
+
+ISTART =  0
+ISPIN  =  2
+MAGMON =  24*0.5 51*0.1  2*0.1  
+LMAXMIX = 4
+GGA = PE
+IVDW = 12
+
+AMIX = 0.2
+BMIX = 0.00001
+AMIX_MAG = 0.8
+BMIX_MAG = 0.00001
+
+LREAL = Auto 
+NSIM = 4
+NELMIN = 4
+EDIFF = 1E-4
+
+IBRION = 2
+NSW  = 200
+ISIF = 2 
+
+LDAU = .TRUE.
+LDAUTYPE = 2
+LDAUL    =   2  -1  -1
+LDAUU    =   8  0    0
+LDAUPRINT = 2
+
+PREC = Accurate
+LSOL = .TRUE.
+EB_K = 80
+
